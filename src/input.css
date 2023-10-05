@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.parent{
+    background-image: url('images/15410.jpg');
+    background-size: cover;
+}
+h1{
+    font-family: 'Pixelify Sans', cursive;
+}
+
+#sib{
+    display: none;
+}
+
+a:hover + #sib {
+    display: block;
+}
